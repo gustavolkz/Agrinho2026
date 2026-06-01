@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho 2026 - Agrofloresta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Agrinho 2026</h1>
+            <p>Semeando a Biodiversidade: O Poder da Agrofloresta</p>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="container">
+            <h2>O que é Agrofloresta?</h2>
+            <p>É um sistema de produção agrícola que reúne a plantação de alimentos com o cultivo de árvores e a conservação da floresta, imitando os processos da própria natureza.</p>
+        </div>
+    </section>
+
+    <section class="beneficios container">
+        <h3>Benefícios do Sistema Agroflorestal</h3>
+        <div class="cards">
+            <div class="card">
+                <h4>Solo Protegido</h4>
+                <p>As raízes das árvores evitam a erosão e mantêm os nutrientes e a umidade na terra.</p>
+            </div>
+            <div class="card">
+                <h4>Biodiversidade</h4>
+                <p>Atrai polinizadores, pássaros e animais, criando um ecossistema equilibrado e natural.</p>
+            </div>
+            <div class="card">
+                <h4>Clima Equilibrado</h4>
+                <p>As árvores ajudam a capturar carbono da atmosfera e a regular as chuvas da região.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="quiz-section">
+        <div class="container">
+            <h3>Desafio Agroflorestal</h3>
+            <p>Será que você já sabe tudo sobre o tema? Responda à pergunta abaixo:</p>
+            
+            <div class="quiz-box">
+                <p class="pergunta"><strong>Pergunta:</strong> Qual é o principal objetivo da agrofloresta?</p>
+                <button class="btn-resposta" onclick="verificarResposta(false)">Apenas plantar árvores para madeira.</button>
+                <button class="btn-resposta" onclick="verificarResposta(true)">Produzir alimentos em harmonia com a conservação da floresta.</button>
+                <button class="btn-resposta" onclick="verificarResposta(false)">Substituir a mata nativa por plantações de soja.</button>
+                
+                <p id="resultado-quiz"></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Projeto Agrinho - Juntos pelo Futuro Sustentável</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
